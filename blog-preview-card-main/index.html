@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @font-face {
+      font-family: 'custom';
+      src: url('assets/fonts/Figtree-VariableFont_wght.ttf') format('woff');
+    }
+
+    body {
+      background-color: #e0ad36;
+      margin: 0; 
+      font-family: 'custom';
+    }
+
+    .container {
+      height: 100vh; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 15px;
+      padding: 15px;
+      max-width: 300px;
+      border: solid 1px;
+    }
+
+    .img1 {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .img2 {
+      height: 30px;
+      margin-right: 10px;
+    }
+
+    h3 {
+      background-color: #e2a922;
+      max-width: 80px;
+      padding: 5px;
+      border-radius: 5px;
+    }
+
+    .person {
+      display: flex;
+      align-items: center;
+      font-size: small;
+    }
+
+    .info {
+      color: gray;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      color: hsl(228, 45%, 44%);
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+<div class="card">
+  <img src="assets/images/illustration-article.svg" class="img1">
+  <h3>Learning</h3>
+
+  <p4>Published 21 Dec 2023</p4>
+
+  <h2>HTML & CSS foundations</h2>
+
+  <p class="info">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+
+  <div class="person">
+    <img src="assets/images/image-avatar.webp" class="img2">
+    <b>Greg Hooper</b>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/LouisDev23">Louis Viljoen</a>.
+  </div>  
+</div>
+  </div>
+</body>
+</html>
